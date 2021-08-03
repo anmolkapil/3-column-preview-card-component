@@ -42,7 +42,7 @@ main {
 
 .card {
   animation: moveInBottom 1s;
-  border-radius: 1em;
+  border-radius: 10px;
   max-width: 900px;
   display: flex;
   overflow: hidden;
@@ -85,18 +85,19 @@ h1 {
 }
 
 p {
+  line-height: 1.75;
   color: hsla(0, 0%, 100%, 0.75);
   opacity: 0.8;
 }
 
 button {
-  -webkit-tap-highlight-color: transparent;
   cursor: pointer;
+  font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
   margin-top: 6em;
   border: 2px solid hsl(0, 0%, 95%);
   background-color: hsl(0, 0%, 95%);
-  padding: 1em 2.5em;
+  padding: 12px 30px;
   border-radius: 30px;
   transition: background-color 0.5s, transform 0.2s ease-out;
 }
@@ -110,13 +111,13 @@ button:active {
   transform: scale(0.9);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 975px) {
   main {
     height: 100%;
   }
   .card {
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     margin: 4em 0;
   }
   h1 {
