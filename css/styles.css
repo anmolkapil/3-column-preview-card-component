@@ -90,6 +90,7 @@ p {
 }
 
 button {
+  -webkit-tap-highlight-color: transparent;
   cursor: pointer;
   font-family: "Lexend Deca", sans-serif;
   margin-top: 6em;
